@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;  
+    overflow: hidden;
+}/*body*/
+
+
+img {
+    width: 35vw;
+    height: 100vh;
+    display: block;
+    margin: auto;
+}/* Styling for images */
+
+
+.hd{
+    font-family: 'Saira Stencil One';
+    font-size: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    padding: 20px;
+    margin: 0 32%;
+}/* header class*/
+
+/* header of web*/
+.h1{
+    width: auto;
+    height: 47px;
+    margin: 5px;
+    color: #f70000;/* specific fonts*/
+}/* title  */
+
+.name {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    position: absolute;
+    top: 35%; 
+    left: 60%;
+    transform: translateX(-50%);
+    color: #ffffff;
+}/* name of the actress */
+
+.n1 {
+    margin: 16px;
+    text-align: center;
+}
+
+.n2 {
+    font-size: 26px;
+    font-weight: 600;
+
+}
+
+
+.t {
+    font-family: 'Saira Stencil One';
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    position: absolute;
+    bottom: 7%;
+    padding: 20px;
+ 
+    margin: 0 31%; 
+}/* movie title class */
+
+
+.tt {
+    width: auto;
+    height: 50px;
+    margin: 5px;
+}
+
+#t1 {
+    font-size: 40px;
+    color: #C0C0C0;
+}
+
+
+#t2 {
+    font-size: 30px;
+    color: #bab9b9;
+    padding-top: 12px;
+    position: relative;
+    top: 11.5px;
+}
+
+
+#t3 {
+    font-size: 40px;/* specific fonts*/
+    color: rgb(214, 15, 15);
+}
+
+
+.text {
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    position: absolute;
+    bottom: 6%;
+    margin: 0 33%;
+}/* producers info */
+
+.styling1 {
+    font-size: 9px;
+    color: rgb(61, 76, 61);
+}
+
+.styling2 {
+    font-size: 14px;
+    color: white;
+}
+
+
+footer {
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    position: absolute;
+    bottom: 2%;
+    margin: 0 26% 0 33%;
+    font-size: 18px;
+    color: white;
+}/* footer for the website */
+
+footer > p {
+    display: flex;
+    align-items: center; 
+}
+
+footer > p > span {
+    font-family: 'Orbitron', sans-serif;/* specific fonts*/
+    color: #f70000;
+}
+
+#link {
+    position: absolute;
+    bottom: 1%; 
+    left: 1%; 
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    color: white;
+    z-index: 10; 
+    
+}/* link of the trailer */
+footer>div>a {
+    color: #00f719;
+   }
